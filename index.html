@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Birth Year Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Birth Year Calculator</h1>
+
+        <p class="description">
+            This application is designed to show
+            the birth year of an individual.
+        </p>
+
+        <label for="your-name">Name:</label>
+        <input
+            type="text"
+            id="your-name"
+            placeholder="What is your name"
+        >
+
+        <label for="your-age">Age:</label>
+        <input
+            type="number"
+            id="your-age"
+            placeholder="Please, what is your age"
+            min="0"
+        >
+
+        <button onclick="calculateYear()">
+            Calculate
+        </button>
+
+        <p id="result">Result:</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
